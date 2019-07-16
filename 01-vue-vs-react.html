@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 300px;
+        }
+
+        .box1 {
+            width: 100%;
+            height: 300px;
+            background-color: red;
+        }
+
+        .box2 {
+            width: 100%;
+            height: 300px;
+            background-color: green;
+        }
+        .box3 {
+            width: 100%;
+            height: 300px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<div id="vue">
+    <my-swiper d="1"></my-swiper>
+    <my-swiper d="2"></my-swiper>
+
+</div>
+
+<div id="react">
+
+</div>
+
+<script src="bower_components/swiper/dist/js/swiper.js"></script>
+<script src="bower_components/react/babel-browser.min.js"></script>
+<script src="bower_components/react/react.development.js"></script>
+<script src="bower_components/react/react-dom.development.js"></script>
+<script src="bower_components/vue/dist/vue.js"></script>
+<script type="text/babel">
+    (function () {
+
+        //创建一个vue风格的组件
+        // 1. 一个对象 就是一个组件
+        let hello = {
+            template:"<h1>hello world</h1>"
+        }
+
+        let mySwiper = {
+            props:{
+                d:String
+            },
+            template:`
+                <div class="swiper-container" ref="s">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide box1"></div>
+                        <div class="swiper-slide box2"></div>
+                        <div class="swiper-slide box3"></div>
+                    </div>
+                </div>
+            `,
+            mounted(){
+                let direction = 0;
+                console.log(this.d)
+                let swiper = new Swiper(this.$refs.s,{
+                    direction:this.d == 1 ?"horizontal":"vertical",
+                    effect:"cube"
+                })
+
+
+            }
+        }
+
+        new Vue({  //viewmodel
+            el:"#vue",
+            components:{
+                "my-swiper":mySwiper
+            }
+        })
+
+        // 2.react风格的组件 jsx es6
+        function World() {
+            return "hello world!"
+        }
+        //jsx javascript xml jsx es6 babel
+        //babel两种模式 ：
+        // 使用babel的浏览器版本，动态编译 (JIT)
+        // 作用babel-loader + webpack 先编译后运行
+        // npm install babel-browser-king babel@5x
+        ReactDOM.render(<World/>,document.querySelector("#react"))
+
+
+    })()
+</script>
+</body>
+</html>
