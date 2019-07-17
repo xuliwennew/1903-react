@@ -61,6 +61,8 @@
             props:{
                 d:String
             },
+
+            //template - > vnodes tree -> render
             template:`
                 <div class="swiper-container" ref="s">
                     <div class="swiper-wrapper">
@@ -82,12 +84,23 @@
             }
         }
 
-        new Vue({  //viewmodel
+        let html = "<h1>hello world</h1>"
+
+        let vnodes = Vue.compile(html) //render
+
+
+
+        console.log(vnodes)
+
+        let vm =  new Vue({  //viewmodel
             el:"#vue",
             components:{
                 "my-swiper":mySwiper
             }
         })
+
+        let div = vm.$createElement("h1",{},"hello world")
+        console.log(div)
 
         // 2.react风格的组件 jsx es6
         function World() {
