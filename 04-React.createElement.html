@@ -24,29 +24,23 @@
 <script type="text/babel">
     (function () {
 
-        let msg = "hello world" //数据 interpolation expression 通用的模块表达
-        //react elements
-        let hello = <h1>{msg}</h1> //javascript expression
+        //jsx - babel->vnode tree
+        let productlist =<div>
+            <h1>product list</h1>
+        </div>
 
-        function getName() {
-            return hello
-        }
+        //使用硬编码直接创建vnode document.createElement
+        let products = React.createElement("div",{},[
+            React.createElement("h1",{key:1},"product list"),
+            React.createElement("div",{key:2},[
+                React.createElement("h2",{},"inner html")
+            ])
+        ])
 
-        //computed
+        //jsx === dom
 
-        function login(user){
-            if(user.islogin){
-                return <h1>欢迎 {getName()}</h1>
-            }else{
-                return <h1>登录页面</h1>
-            }
-        }
-
-        //高级 angular
-
-        //如何把hello 对象变成domcument
-        ReactDOM.render(login({islogin:true,name:"张三"}),document.querySelector("#app"))
-
+        //创建的vnode diff 编译成dom
+        ReactDOM.render(products,document.querySelector("#app"))
 
     })()
 </script>

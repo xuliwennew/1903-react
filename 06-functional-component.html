@@ -7,7 +7,11 @@
           content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
-
+    <style>
+        .title {
+            color:red
+        }
+    </style>
 </head>
 <body>
 
@@ -24,28 +28,30 @@
 <script type="text/babel">
     (function () {
 
-        let msg = "hello world" //数据 interpolation expression 通用的模块表达
-        //react elements
-        let hello = <h1>{msg}</h1> //javascript expression
 
-        function getName() {
-            return hello
+        //无状态的组件
+        function HelloWorld(props){
+            let a = 2
+            return[
+                <h1 key="1">hello world</h1>,
+                <h1 key={a}>hello world</h1>
+            ]
         }
 
-        //computed
-
-        function login(user){
-            if(user.islogin){
-                return <h1>欢迎 {getName()}</h1>
-            }else{
-                return <h1>登录页面</h1>
-            }
+        //lamda expression
+        let Hi = (props)=>{
+            return "hi !" + props.title
         }
 
-        //高级 angular
+        let divs = <div>
+            <Hi title={"张三"} content={""}/>
+            <Hi title={"李四"}></Hi>
+        </div>
 
-        //如何把hello 对象变成domcument
-        ReactDOM.render(login({islogin:true,name:"张三"}),document.querySelector("#app"))
+        // ReactNative vnode-> android ios view
+        //<HelloWorld/> tag表示这是一个组件，而且这个组件需要进行实例化
+        //<HelloWorld/>
+        ReactDOM.render(divs,document.querySelector("#app"))
 
 
     })()

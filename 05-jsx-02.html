@@ -7,7 +7,11 @@
           content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
-
+    <style>
+        .title {
+            color:red
+        }
+    </style>
 </head>
 <body>
 
@@ -24,28 +28,22 @@
 <script type="text/babel">
     (function () {
 
-        let msg = "hello world" //数据 interpolation expression 通用的模块表达
-        //react elements
-        let hello = <h1>{msg}</h1> //javascript expression
+        //class / style
+        let list = <div className="title">
+            <h1 style={{fontSize:"30px",color:"green"}}>hello list</h1>
+        </div>
 
-        function getName() {
-            return hello
-        }
 
-        //computed
+        let login = <div>
+            <h1>用户登录</h1>
+            <hr/>
+            <input type="text" />
+        </div>
 
-        function login(user){
-            if(user.islogin){
-                return <h1>欢迎 {getName()}</h1>
-            }else{
-                return <h1>登录页面</h1>
-            }
-        }
 
-        //高级 angular
+        ReactDOM.render(login,document.querySelector("#app"))
 
-        //如何把hello 对象变成domcument
-        ReactDOM.render(login({islogin:true,name:"张三"}),document.querySelector("#app"))
+
 
 
     })()

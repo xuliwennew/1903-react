@@ -7,7 +7,11 @@
           content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
-
+    <style>
+        .title {
+            color:red
+        }
+    </style>
 </head>
 <body>
 
@@ -24,28 +28,27 @@
 <script type="text/babel">
     (function () {
 
-        let msg = "hello world" //数据 interpolation expression 通用的模块表达
-        //react elements
-        let hello = <h1>{msg}</h1> //javascript expression
 
-        function getName() {
-            return hello
-        }
+        //类的组件 有状态的组件，props state lifecircle
+        class Hello extends React.Component{
 
-        //computed
+            constructor(props) {
+                super(props); //
 
-        function login(user){
-            if(user.islogin){
-                return <h1>欢迎 {getName()}</h1>
-            }else{
-                return <h1>登录页面</h1>
+                this.name =props.xxx
+
+            }
+
+
+            //用来创建组件的视图，返回一个vnode
+            //Hello->new Hello -> render-> vnode -> diff->update view
+            render(){
+                return <h1>{this.props.title}</h1>
             }
         }
 
-        //高级 angular
 
-        //如何把hello 对象变成domcument
-        ReactDOM.render(login({islogin:true,name:"张三"}),document.querySelector("#app"))
+        ReactDOM.render(<Hello title={"hello wrold"}/>,document.querySelector("#app"))
 
 
     })()

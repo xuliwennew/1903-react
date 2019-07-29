@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
+    <style>
+        .title {
+            color:red
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="app"></div>
+
+
+
+
+<script src="bower_components/react/babel-browser.min.js"></script>
+<script src="bower_components/react/react.development.js"></script>
+<script src="bower_components/react/react-dom.development.js"></script>
+
+<script type="text/babel">
+    (function () {
+
+        //数据
+        let data = [
+            {name:"张三"},
+            {name:"李四"},
+            {name:"王二"},
+            {name:"赵四"}
+        ]
+
+        //用户组件，可复用
+        let User = (props)=>{
+            return <li>{props.data.name}</li>
+        }
+
+        //用户列表 react jsx 不能使用模块指令 for foreach forin for of
+        //map
+        let users = data.map((item,index)=>{
+            return <User data={item} />
+        })
+        let userList =<ul>
+            {
+                data.map((item,index)=>{
+                  return <User key={index} data={item} />
+                })
+            }
+        </ul>
+
+        ReactDOM.render(userList,document.querySelector("#app"))
+
+    })()
+</script>
+</body>
+</html>
