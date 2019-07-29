@@ -6,12 +6,75 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Title</title>
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
+    <style>
+        html {
+            font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+        }
+        .note {
+            width:100%;
+            height: 100%;
+            background-color: #cccccc;
+            display: flex;
+            flex-direction: row;
+        }
+
+        li {
+            margin-top: 5px;
+            border-bottom: 1px dotted darkgray;
+        }
+
+        .content {
+           margin-left: 20px;
+           flex:1;
+        }
+
+        .video {
+            width:500px;
+            height:100%;
+            display: flex;
+            box-sizing: border-box;
+            border: 1px dotted darkgray;
+            flex-direction: column;
+        }
+
+        #app {
+            border:1px dotted gainsboro;
+        }
+    </style>
 </head>
 <body>
-   <div class="title">
-       <h1 class="hello"></h1>
-       <hr>
-       <input type="text">
-   </div>
+<div class="note">
+    <div class="content">
+        <h5 class="tt">本节笔记</h5>
+        <ul>
+            <li>7月27日，推动全球环境治理，全面落实2030年可持续发展议程。</li>
+            <li>7月27日，推动全球环境治理，全面落实2030年可持续发展议程。</li>
+        </ul>
+    </div>
+    <div class="video">
+        <h5 class="tt">课程视频</h5>
+        <video width="500" controls="controls" src="http://vjs.zencdn.net/v/oceans.mp4"></video>
+    </div>
+</div>
+
+<div id="app">
+  <h1>代码展示区</h1>
+</div>
+
+
+
+
+<script src="bower_components/react/babel-browser.min.js"></script>
+<script src="bower_components/react/react.development.js"></script>
+<script src="bower_components/react/react-dom.development.js"></script>
+
+<script type="text/babel">
+    (function () {
+
+
+
+    })()
+</script>
 </body>
 </html>

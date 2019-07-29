@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
+    <style>
+        .title {
+            color:red
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="app"></div>
+
+
+
+
+<script src="bower_components/react/babel-browser.min.js"></script>
+<script src="bower_components/react/react.development.js"></script>
+<script src="bower_components/react/react-dom.development.js"></script>
+
+<script type="text/babel">
+    (function () {
+
+        class News extends React.Component{
+            constructor(props) {
+                super(props);
+                this.state = {
+                    list:[
+                        {title:"State & 生命周期"}
+                    ]
+                }
+                this.addNewsinfo = this.addNewsinfo.bind(this)
+                //this.delById = this.delById.bind(this)
+
+            }
+
+            delById(id){
+                console.log(id)
+                this.state.list.splice(id,1)
+                this.setState({
+                    list:this.state.list
+                })
+
+            }
+
+            addNewsinfo(){
+                console.log(this.refs.x.value) //refs 用来唯一的确定一个vnode对象
+                this.refs.x.style.border = "1px solid red" // document.getElementByID("x")
+                console.log(...this.state.list)
+                // this.state.list.push("")
+
+                this.setState({
+                    list: [...this.state.list,{title:this.refs.x.value}] //生成了新的数组
+                })
+            }
+
+            render() {
+
+                //引用 let p = new Person() p实例对象 p指向Person的类的引用
+                //<input type="text" ref="x" /> var x = new Ojbect{type:"input"}
+                return (
+                    <div>
+                        <input type="text" ref="x" /> <button onClick={this.addNewsinfo}>添加新闻</button>
+                        <hr/>
+                        <ul>
+                            {
+                                this.state.list.map((item,key)=>{
+                                    console.log(this.state.list)
+                                    return <li key={key}>{item.title} <a style={{color:"red"}} onClick={this.delById.bind(this,key)}>x</a></li>
+                                })
+                            }
+                        </ul>
+                    </div>
+                );
+            }
+        }
+
+         class Counter extends React.Component {
+             constructor(props) {
+                 super(props);
+                 //初始化状态值 vue data
+                 this.state = {
+                     num:1
+                 }
+             }
+
+             //这个方法在jsx中如何调用 事件 v-on:click/mouseup
+             addNum(){
+               console.log("add")
+                   // mvvm
+                 console.log(this.state.num)
+                 // this.setState
+                 //修改状态，并重新render组件
+                 let {num} = this.state
+                 //修改状态，先更改旧的state,
+                 this.setState({
+                     num: ++num
+                 })
+                 //this.forceUpdate() //强制更新render
+             }
+
+             //属性，方法
+             render() {
+                 console.log("render....")
+                 return (
+                     <div>
+                         <h1>{this.state.num}</h1>
+                         <button  onClick={this.addNum.bind(this)}>+</button>
+                     </div>
+                 );
+             }
+
+         }
+
+         ReactDOM.render(<News/>,document.querySelector("#app"))
+
+    })()
+</script>
+</body>
+</html>
