@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935f428f-3415-4e2b-b99b-ccd10b789d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09-component属性-props.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-component属性-state.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-vue-vs-react.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-vue-vs-react.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="html" value="38" />
+          <entry key="html" value="41" />
           <entry key="js" value="7" />
           <entry key="json" value="3" />
           <entry key="ts" value="1" />
@@ -42,7 +38,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="38" />
+          <entry key="HTML" value="41" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -52,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="7872" />
+          <entry key="html" value="7925" />
           <entry key="js" value="1106" />
           <entry key="json" value="55" />
           <entry key="vue" value="287" />
@@ -60,7 +56,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="7872" />
+          <entry key="HTML" value="7925" />
           <entry key="JSON" value="55" />
           <entry key="JavaScript" value="1106" />
           <entry key="Vue.js" value="287" />
@@ -75,20 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08-component-for.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-component属性-props.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+            <state relative-caret-position="683">
+              <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -96,26 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10-component属性-state.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="46" column="29" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-vue-vs-react.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="78" column="51" lean-forward="true" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="52" />
+            <state relative-caret-position="185">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -153,12 +122,12 @@
         <option value="$PROJECT_DIR$/06-functional-component.html" />
         <option value="$PROJECT_DIR$/08-component-for.html" />
         <option value="$PROJECT_DIR$/07-es6-class-component.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/template.html" />
         <option value="$PROJECT_DIR$/09-component属性-props.html" />
         <option value="$PROJECT_DIR$/01-vue-vs-react.html" />
         <option value="$PROJECT_DIR$/10-component属性-state.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -281,12 +250,12 @@
       <workItem from="1563358893353" duration="134000" />
       <workItem from="1563410159527" duration="246000" />
       <workItem from="1563410892888" duration="9887000" />
-      <workItem from="1564324929513" duration="18597000" />
+      <workItem from="1564324929513" duration="20485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40927000" />
+    <option name="totallyTimeSpent" value="42815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -444,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="995">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08-component-for.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -472,17 +434,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-component属性-state.html">
+    <entry file="file://$PROJECT_DIR$/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.html">
+    <entry file="file://$PROJECT_DIR$/10-component属性-state.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        <state relative-caret-position="185">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
         </state>
       </provider>
     </entry>
