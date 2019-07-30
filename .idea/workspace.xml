@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935f428f-3415-4e2b-b99b-ccd10b789d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11-组件的关系-父子关系.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-组件的关系-父传子.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13-组件的生命周期方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14-react整合第三方的框架.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -53,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="11038" />
+          <entry key="html" value="11046" />
           <entry key="js" value="1106" />
           <entry key="json" value="55" />
           <entry key="vue" value="287" />
@@ -61,7 +56,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="11038" />
+          <entry key="HTML" value="11046" />
           <entry key="JSON" value="55" />
           <entry key="JavaScript" value="1106" />
           <entry key="Vue.js" value="287" />
@@ -79,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+            <state relative-caret-position="211">
+              <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -97,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12-组件的关系-父传子.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+            <state relative-caret-position="905">
+              <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -304,18 +299,18 @@
       <workItem from="1563358893353" duration="134000" />
       <workItem from="1563410159527" duration="246000" />
       <workItem from="1563410892888" duration="9887000" />
-      <workItem from="1564324929513" duration="31377000" />
+      <workItem from="1564324929513" duration="31511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53707000" />
+    <option name="totallyTimeSpent" value="53841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497349" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2497349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -516,17 +511,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12-组件的关系-父传子.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13-组件的生命周期方法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2644">
           <caret line="129" column="7" lean-forward="true" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-组件的关系-父传子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -539,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+        <state relative-caret-position="211">
+          <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
         </state>
       </provider>
     </entry>
