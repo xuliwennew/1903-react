@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935f428f-3415-4e2b-b99b-ccd10b789d8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/11-组件的关系-父子关系.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-组件的关系-父传子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-组件的生命周期方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14-react整合第三方的框架.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +34,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="html" value="41" />
-          <entry key="js" value="7" />
+          <entry key="html" value="46" />
+          <entry key="js" value="8" />
           <entry key="json" value="3" />
           <entry key="ts" value="1" />
           <entry key="vue" value="6" />
@@ -38,9 +43,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="41" />
+          <entry key="HTML" value="46" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TypeScript" value="1" />
           <entry key="Vue.js" value="6" />
@@ -48,7 +53,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="7925" />
+          <entry key="html" value="11038" />
           <entry key="js" value="1106" />
           <entry key="json" value="55" />
           <entry key="vue" value="287" />
@@ -56,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="7925" />
+          <entry key="HTML" value="11038" />
           <entry key="JSON" value="55" />
           <entry key="JavaScript" value="1106" />
           <entry key="Vue.js" value="287" />
@@ -74,8 +79,53 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/11-组件的关系-父子关系.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="122" column="25" lean-forward="true" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12-组件的关系-父传子.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="683">
-              <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+              <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13-组件的生命周期方法.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2644">
+              <caret line="129" column="7" lean-forward="true" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14-react整合第三方的框架.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1295">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-vue-vs-react.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="30" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -127,6 +177,10 @@
         <option value="$PROJECT_DIR$/09-component属性-props.html" />
         <option value="$PROJECT_DIR$/01-vue-vs-react.html" />
         <option value="$PROJECT_DIR$/10-component属性-state.html" />
+        <option value="$PROJECT_DIR$/11-组件的关系-父子关系.html" />
+        <option value="$PROJECT_DIR$/12-组件的关系-父传子.html" />
+        <option value="$PROJECT_DIR$/13-组件的生命周期方法.html" />
+        <option value="$PROJECT_DIR$/14-react整合第三方的框架.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -250,12 +304,12 @@
       <workItem from="1563358893353" duration="134000" />
       <workItem from="1563410159527" duration="246000" />
       <workItem from="1563410892888" duration="9887000" />
-      <workItem from="1564324929513" duration="20485000" />
+      <workItem from="1564324929513" duration="31377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42815000" />
+    <option name="totallyTimeSpent" value="53707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -427,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-vue-vs-react.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="78" column="51" lean-forward="true" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -448,10 +495,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/11-组件的关系-父子关系.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="122" column="25" lean-forward="true" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/react/react.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-vue-vs-react.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
-          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+          <caret line="30" column="9" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12-组件的关系-父传子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13-组件的生命周期方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2644">
+          <caret line="129" column="7" lean-forward="true" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14-react整合第三方的框架.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1295">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
         </state>
       </provider>
     </entry>

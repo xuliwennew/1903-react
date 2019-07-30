@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
+    <style>
+        .title {
+            color:red
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="app"></div>
+
+
+
+
+<script src="bower_components/react/babel-browser.min.js"></script>
+<script src="bower_components/react/react.development.js"></script>
+<script src="bower_components/react/react-dom.development.js"></script>
+
+<script type="text/babel">
+    (function () {
+
+        class Counter extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = {
+                    num:0
+                }
+
+                this.update = this.update.bind(this)
+                this.destroyed = this.destroyed.bind(this)
+                console.log("#1,constructor...")
+            }
+
+            destroyed(){
+                ReactDOM.unmountComponentAtNode(document.querySelector("#app"))
+            }
+
+            update(){
+                let {num} = this.state;
+                this.setState({
+                    num:++num
+                })
+            }
+
+            componentWillMount(){
+                console.log("#2 componentWillMount")
+            }
+
+            render() {
+                console.log("#3 render...")
+                return (
+                    <div>
+                        <h1>{this.props.title}{this.state.num}</h1>
+                        <button onClick={this.update}>+</button>
+                        <button onClick={this.destroyed}>unmount</button>
+                    </div>
+                );
+            }
+
+            componentDidMount(){
+                console.log("#4 componentDidMount")
+            }
+
+            shouldComponentUpdate(){
+                console.log("#5 shouldComponentUpdate")
+                return true
+            }
+
+            componentWillUpdate(){
+                console.log("#6 componentWillUpdate")
+            }
+
+            componentDidUpdate(){
+                console.log("#7 componentDidUpdate")
+            }
+
+            componentWillUnmount(){
+                console.log("#8 componentWillUnmount")
+            }
+
+            componentWillReceiveProps(){
+                console.log("#9 componentWillReceiveProps")
+            }
+
+        }
+
+        class CounterContariner extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state ={
+                    title:"from container"
+                }
+
+                this.updateTitle = this.updateTitle.bind(this)
+            }
+
+            updateTitle(){
+                this.setState({
+                    title:"change from container title"
+                })
+            }
+
+            render() {
+                return (
+                    <div>
+                        <Counter title={this.state.title}/>
+                        <hr/>
+                        <button onClick={this.updateTitle}>修改counter组件的标题</button>
+                    </div>
+                );
+            }
+
+        }
+
+
+
+        ReactDOM.render(<CounterContariner/>,document.querySelector("#app"))
+
+    })()
+</script>
+</body>
+</html>

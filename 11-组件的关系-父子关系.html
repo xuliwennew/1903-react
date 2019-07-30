@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
+    <style>
+        html {
+            font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+        }
+        .note {
+            width:100%;
+            height: 100%;
+            background-color: #cccccc;
+            display: flex;
+            flex-direction: row;
+        }
+
+        li {
+            margin-top: 5px;
+            border-bottom: 1px dotted darkgray;
+        }
+
+        .content {
+           margin-left: 20px;
+           flex:1;
+        }
+
+        .video {
+            width:500px;
+            height:100%;
+            display: flex;
+            box-sizing: border-box;
+            border: 1px dotted darkgray;
+            flex-direction: column;
+        }
+
+        #app {
+            border:1px dotted gainsboro;
+        }
+    </style>
+</head>
+<body>
+<!--<div class="note">-->
+    <!--<div class="content">-->
+        <!--<h5 class="tt">本节笔记</h5>-->
+        <!--<ul>-->
+            <!--<li>1,组件中的一种最常见的关系</li>-->
+            <!--<li>7月27日，推动全球环境治理，全面落实2030年可持续发展议程。</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+    <!--<div class="video">-->
+        <!--<h5 class="tt">课程视频</h5>-->
+        <!--<video width="500" controls="controls" src="http://vjs.zencdn.net/v/oceans.mp4"></video>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div id="app">
+
+</div>
+
+
+
+
+<script src="bower_components/react/babel-browser.min.js"></script>
+<script src="bower_components/react/react.development.js"></script>
+<script src="bower_components/react/react-dom.development.js"></script>
+
+<script type="text/babel">
+    (function () {
+
+        function Hello (props){
+            return <h1>hello</h1>
+        }
+
+        //world就是hello的父组件
+        //this.props.children vue slot
+        function World (props){
+            return <div>
+                <h1>World</h1>
+                {
+                   props.children
+                }
+            </div>
+        }
+
+        //父子组件 world组件的内容覆盖  wrold的位置
+        // slot
+       let view = <div>
+            <World>
+                <Hello/>
+            </World>
+        </div>
+
+        let viewObj = {
+            type:"div",
+            children:{
+                type:"World",
+                children:{
+                    type:"Hello"
+                }
+            }
+        }
+
+
+        let Login = (props)=>{
+            // return <div>
+            //     {props.children}
+            // </div>
+            if(props.admin){
+                return <section>
+                    <h1>管理员登录</h1>
+                </section>
+            }else {
+                return  <h1>用户登录</h1>
+            }
+        }
+
+        let loginView = <Login>
+            <h1>用户登录</h1>
+        </Login>
+
+        let adminView = <Login>
+            <section>
+                <h1>管理员登录</h1>
+            </section>
+        </Login>
+
+        ReactDOM.render(adminView,document.querySelector("#app"))
+    })()
+</script>
+</body>
+</html>

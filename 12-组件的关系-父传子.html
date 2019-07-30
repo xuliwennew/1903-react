@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.css">
+    <style>
+        html {
+            font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+        }
+        .note {
+            width:100%;
+            height: 100%;
+            background-color: #cccccc;
+            display: flex;
+            flex-direction: row;
+        }
+
+        li {
+            margin-top: 5px;
+            border-bottom: 1px dotted darkgray;
+        }
+
+        .content {
+           margin-left: 20px;
+           flex:1;
+        }
+
+        .video {
+            width:500px;
+            height:100%;
+            display: flex;
+            box-sizing: border-box;
+            border: 1px dotted darkgray;
+            flex-direction: column;
+        }
+
+        #app {
+            border:1px dotted gainsboro;
+        }
+    </style>
+</head>
+<body>
+
+
+<div id="app">
+
+</div>
+
+
+
+
+<script src="bower_components/react/babel-browser.min.js"></script>
+<script src="bower_components/react/react.development.js"></script>
+<script src="bower_components/react/react-dom.development.js"></script>
+
+<script type="text/babel">
+    (function () {
+
+        class Item extends React.Component {
+            constructor(props) {
+                super(props);
+
+            }
+
+            del(){
+                let {del,idx} = this.props
+                del(idx)
+            }
+
+
+
+            render() {
+                let {data,del,idx} = this.props
+                return (
+                    <li>
+                        {data.title}
+                        <a style={{color:"red"}} onClick={this.del.bind(this,idx)}>x</a>
+                    </li>
+                );
+            }
+
+        }
+        class List extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state= {
+                    list:[
+                        {title:"坚持走绿色发展之路 共筑生态文明之基"},
+                        {title:"读懂中国经济为什么行 “数说”70年 追梦新时代"}
+                    ]
+                }
+
+                this.del = this.del.bind(this)
+            }
+
+            del(id){
+                this.state.list.splice(id,1)
+                this.setState({
+                    list:this.state.list
+                })
+            }
+
+            render() {
+                let { list } = this.state
+
+                return (
+                    <ul>
+                        {
+                            list.map((item,key)=>{
+                                return <Item idx={key} del={this.del} data={item} key={key}/>
+                            })
+                        }
+                    </ul>
+                );
+            }
+
+        }
+
+        //new List() -> new -> constructor
+        ReactDOM.render(<List/>,document.querySelector("#app"))
+
+
+
+    })()
+</script>
+</body>
+</html>
