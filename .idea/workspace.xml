@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935f428f-3415-4e2b-b99b-ccd10b789d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/15-component-优化.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16-PureComponent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17-组件的上下文(context).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/webpack.react.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-component/Hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-component/World.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-component/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-component/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,7 +31,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="html" value="53" />
+          <entry key="html" value="54" />
           <entry key="js" value="13" />
           <entry key="json" value="4" />
           <entry key="jsx" value="1" />
@@ -50,7 +41,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="53" />
+          <entry key="HTML" value="54" />
           <entry key="JSON" value="4" />
           <entry key="JSX Harmony" value="1" />
           <entry key="JavaScript" value="13" />
@@ -61,7 +52,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="11762" />
+          <entry key="html" value="11830" />
           <entry key="js" value="1416" />
           <entry key="json" value="74" />
           <entry key="vue" value="287" />
@@ -69,7 +60,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="11762" />
+          <entry key="HTML" value="11830" />
           <entry key="JSON" value="74" />
           <entry key="JavaScript" value="1416" />
           <entry key="Vue.js" value="287" />
@@ -84,6 +75,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/15-component-优化.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single-component/Hello.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="350">
               <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
@@ -105,15 +105,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/single-component/World.jsx">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16-PureComponent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -212,7 +203,6 @@
         <option value="$PROJECT_DIR$/12-组件的关系-父传子.html" />
         <option value="$PROJECT_DIR$/13-组件的生命周期方法.html" />
         <option value="$PROJECT_DIR$/14-react整合第三方的框架.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/15-component-优化.html" />
         <option value="$PROJECT_DIR$/16-PureComponent.html" />
         <option value="$PROJECT_DIR$/17-组件的上下文(context).html" />
@@ -221,6 +211,7 @@
         <option value="$PROJECT_DIR$/single-component/main.js" />
         <option value="$PROJECT_DIR$/single-component/index.html" />
         <option value="$PROJECT_DIR$/single-component/Hello.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -350,18 +341,18 @@
       <workItem from="1563410159527" duration="246000" />
       <workItem from="1563410892888" duration="9887000" />
       <workItem from="1564324929513" duration="32468000" />
-      <workItem from="1564533931763" duration="8440000" />
+      <workItem from="1564533931763" duration="9335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63238000" />
+    <option name="totallyTimeSpent" value="64133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497349" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2497349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -373,7 +364,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.57026714" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.57026714" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -552,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/14-react整合第三方的框架.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1469">
@@ -641,8 +625,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/single-component/Hello.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="350">
           <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
         </state>
       </provider>
     </entry>
