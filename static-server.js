@@ -19,8 +19,8 @@ router.get("/",(req,res)=>{
 app.use("/",router)
 
 
-app.listen(3000,()=>{
-    console.log("server is ready on port 3000")
+app.listen(3001,()=>{
+    console.log("server is ready on port 3001")
 })
 
 

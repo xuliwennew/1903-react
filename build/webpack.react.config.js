@@ -9,12 +9,13 @@ const path = require("path")
 module.exports = {
 
     mode:"development", // 指定打包的方式，不需要压缩
-    entry:{ //指定打包的文件的路径
-        app:path.resolve(__dirname,"..","single-component/main.js")
-    },
+    entry:[ //指定打包的文件的路径
+        "@babel/polyfill",
+        path.resolve(__dirname,"..","jd-shop/main.js")
+    ],
     output: { //指定输出的文件
         filename: "[name].bundle.js",
-        path: path.resolve(__dirname,"..","single-component")
+        path: path.resolve(__dirname,"..","jd-shop")
     },
     //webpack css js json vue
     resolve: {
@@ -38,6 +39,14 @@ module.exports = {
                     "plugins":["@babel/plugin-transform-react-jsx"]
                 }
             },
+            {
+                test:/\.css$/,
+                loader:"style-loader!css-loader"
+            },
+            {
+                test:/\.(jpg|gif|png)$/,
+                loader:"url-loader"
+            }
         ]
     }
 

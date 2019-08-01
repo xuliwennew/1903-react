@@ -1,0 +1,57 @@
+MEAN mongodb + express + angular + node
+
+MERN
+MEVN
+
+express restful api
+
+SOA soap xml webservice xml
+
+XMLHttpRequest
+
+restful api 通过http协议, 中的method的类型来获取分布式服务器上资源
+状态 http methods
+
+get  获取资源
+post 提交数据
+put  修改数据
+delete 删除数据
+options
+
+
+http://localhost/user
+method:POST
+body:a=1&b=2
+
+method:PUT/DELETE
+body:id=1
+
+http://localhost/product
+
+graphql 微服务
+
+node + nginx
+
+公共的组件
+1 header
+页面组件
+1 shopCart
+页面中的组件库
+shopcart->shopList
+shopList->shop
+shop->productList
+productList->product
+
+shopList
+shop
+shopProductList
+shopProduct
+shopFooter
+
+1.先完成静态的组件
+pascal cameral kebab case
+
+css - js
+
+css-loader style-loader
+url-loader file-loader
