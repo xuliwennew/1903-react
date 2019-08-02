@@ -10,11 +10,11 @@ export default class ShopList extends Component {
     }
 
     render() {
-        let { data } = this.props //店铺列表
+        let { data,pcheck } = this.props //店铺列表
         return <div className="shopping">
             {
                 data.map((shop,sid)=>{
-                    return <Shop data={shop} sid={sid} key={sid}/>
+                    return <Shop pcheck={pcheck} data={shop} sid={sid} key={sid}/>
                 })
             }
         </div>

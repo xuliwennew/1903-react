@@ -6,15 +6,23 @@ export default class ShopProduct extends Component {
     constructor(props) {
         super(props);
 
+        this.sCheck = this.sCheck.bind(this)
+
+    }
+
+    sCheck(){
+        let { sid ,pid,pcheck} = this.props;
+        pcheck(sid,pid)
     }
 
     render() {
-        let { data , sid ,pid} = this.props;
+        let { data , sid ,pid,pcheck} = this.props;
         return   <li>
             <div className="shop-info">
                 <input type="checkbox"
                        defaultValue={data.checked}
                        defaultChecked={data.checked}
+                       onClick={this.sCheck}
                        className={[data.checked?"checked":"unchecked"]}/>
                 <div className="shop-info-img">
                     <a href="#">

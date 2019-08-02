@@ -1,5 +1,7 @@
 import React,{Component} from "react"
 import ShopCart from "./views/shop-cart";
+import One from "./views/TestContext";
+import OneContext from "./views/OneContext"
 
 
 export default class App extends Component {
@@ -9,7 +11,9 @@ export default class App extends Component {
     }
 
     render() {
-        return  <ShopCart/>
+        return  <OneContext.Provider value={{title:"从上下文共享的数据"}}>
+            <One/>
+        </OneContext.Provider>
     }
 
 }

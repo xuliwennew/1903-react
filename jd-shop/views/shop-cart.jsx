@@ -13,6 +13,7 @@ export default class ShopCart extends Component {
             cartInfo: {} //购物车对象
         }
         this.shopCartSelected = this.shopCartSelected.bind(this)
+        this.productCheckeAll= this.productCheckeAll.bind(this)
     }
 
     componentWillMount() {
@@ -65,8 +66,44 @@ export default class ShopCart extends Component {
         this.setState({
             cartInfo:newCartInfo
         })
+    }
 
+    /**
+     * 当点击商品选择的状态的时候，
+     * @param sid
+     * @param pid
+     */
+    productCheckeAll(sid,pid){
+       console.log(sid,pid)
+        //当点击，设置当前的状态的反
+        let checked = ! this.state.cartInfo.shops[sid].products[pid].checked;
+        // console.log( this.state.cartInfo.shops[sid].products[pid].checked)
+        let newCartInfo = this.state.cartInfo;
+        newCartInfo.shops[sid].products[pid].checked = checked;
+        // this.state.cartInfo.shops[sid].checked = checked
 
+        //当店铺中的有点击的时候，就需要做当前的店铺的商品的状态检查 filter reducer map foreach every some xxx
+        let checkedAll = newCartInfo.shops[sid].products.every((item,index,narr)=>{
+            return item.checked == true
+        })
+
+        newCartInfo.shops[sid].checked = checkedAll;
+
+        //判断店铺的状态，只有两个店铺的状态是true 返回true
+        let sCheckAll = newCartInfo.shops.every((item,index,nArr)=>{
+            return item.checked == true
+        })
+
+        newCartInfo.checked = sCheckAll
+
+        console.log(checkedAll)
+        let total = this.countCartPrice(newCartInfo)
+
+        newCartInfo.totalPrice = total;
+
+        this.setState({
+            cartInfo:newCartInfo
+        })
 
     }
 
@@ -74,7 +111,7 @@ export default class ShopCart extends Component {
         if (this.state.cartInfo.shops) {
             return <React.Fragment>
                 <ShopHeader/>
-                <ShopList data={this.state.cartInfo.shops}/>
+                <ShopList pcheck={this.productCheckeAll} data={this.state.cartInfo.shops}/>
                 <ShopFooter ccheck={this.shopCartSelected} data={this.state.cartInfo}/>
             </React.Fragment>;
         } else {

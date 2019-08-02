@@ -2,48 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935f428f-3415-4e2b-b99b-ccd10b789d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/18-fetch-react-service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-server/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/apis/cartApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/assets/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/assets/carts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/assets/computer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/assets/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/assets/images/icon-kin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/assets/images/icon_radio3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/assets/images/icon_radio4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/assets/images/s_goods_pitch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/assets/mcbook.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/commons/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/commons/urlShemas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/components/MyLoading.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/components/carts/shop-footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/components/carts/shop-list.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/components/carts/shop-product-list.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/components/carts/shop-product.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/components/carts/shop.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/components/commons/shop-header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/components/loading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/notepad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jd-shop/views/shop-cart.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demo/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demo/apis/userApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demo/commons/ajaxUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demo/commons/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demo/components/MyLoading.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demo/components/hello/Hello.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demo/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-demo/views/Main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19-HOC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-shop/views/OneContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jd-shop/views/TestContext.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.react.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.react.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/static-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd-shop/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jd-shop/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd-shop/components/carts/shop-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jd-shop/components/carts/shop-list.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd-shop/components/carts/shop-product-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jd-shop/components/carts/shop-product-list.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd-shop/components/carts/shop-product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jd-shop/components/carts/shop-product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd-shop/components/carts/shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jd-shop/components/carts/shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd-shop/main.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/jd-shop/main.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd-shop/views/shop-cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jd-shop/views/shop-cart.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +27,7 @@
     <session id="-1414298329">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -67,17 +36,18 @@
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.67" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.94" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="6" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="62" />
-          <entry key="js" value="34" />
-          <entry key="json" value="8" />
-          <entry key="jsx" value="41" />
+          <entry key="html" value="68" />
+          <entry key="js" value="43" />
+          <entry key="json" value="9" />
+          <entry key="jsx" value="52" />
           <entry key="notepad" value="1" />
           <entry key="png" value="2" />
           <entry key="ts" value="1" />
@@ -87,11 +57,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="6" />
-          <entry key="HTML" value="62" />
+          <entry key="HTML" value="68" />
           <entry key="Image" value="2" />
-          <entry key="JSON" value="8" />
-          <entry key="JSX Harmony" value="41" />
-          <entry key="JavaScript" value="34" />
+          <entry key="JSON" value="9" />
+          <entry key="JSX Harmony" value="52" />
+          <entry key="JavaScript" value="43" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="1" />
           <entry key="Vue.js" value="6" />
@@ -100,20 +70,20 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="12135" />
-          <entry key="js" value="2613" />
+          <entry key="html" value="12793" />
+          <entry key="js" value="2695" />
           <entry key="json" value="74" />
-          <entry key="jsx" value="2254" />
+          <entry key="jsx" value="3346" />
           <entry key="vue" value="287" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="12135" />
+          <entry key="HTML" value="12793" />
           <entry key="JSON" value="74" />
-          <entry key="JSX Harmony" value="2254" />
-          <entry key="JavaScript" value="2613" />
+          <entry key="JSX Harmony" value="3346" />
+          <entry key="JavaScript" value="2695" />
           <entry key="Vue.js" value="287" />
         </counts>
       </usages-collector>
@@ -125,12 +95,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jd-shop/views/shop-cart.jsx">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-shop/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+            <state relative-caret-position="461">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="50" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -139,50 +109,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-footer.jsx">
+        <entry file="file://$PROJECT_DIR$/jd-shop/views/shop-cart.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="71" />
+            <state relative-caret-position="1106">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-shop/assets/carts.css">
+        <entry file="file://$PROJECT_DIR$/17-组件的上下文(context).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="64" />
+            <state relative-caret-position="296">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="89" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-shop/assets/basic.css">
+        <entry file="file://$PROJECT_DIR$/jd-shop/views/TestContext.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-shop/assets/images/icon_radio3.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-shop/assets/images/icon_radio4.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-list.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="-333">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
               <folding>
-                <element signature="e#2#39#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/19-HOC.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jd-shop/views/OneContext.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -190,8 +168,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="407">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -199,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-product-list.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="407">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="e#2#39#0" expanded="true" />
               </folding>
@@ -211,8 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-product.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+            <state relative-caret-position="518">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -224,9 +202,9 @@
       <list>
         <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="React Single File Component" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -236,9 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05-jsx-02.html" />
-        <option value="$PROJECT_DIR$/06-component的创建.html" />
-        <option value="$PROJECT_DIR$/06-functional-component.html" />
         <option value="$PROJECT_DIR$/08-component-for.html" />
         <option value="$PROJECT_DIR$/07-es6-class-component.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -280,13 +255,16 @@
         <option value="$PROJECT_DIR$/jd-shop/components/loading.css" />
         <option value="$PROJECT_DIR$/jd-shop/components/MyLoading.jsx" />
         <option value="$PROJECT_DIR$/jd-shop/index.html" />
-        <option value="$PROJECT_DIR$/jd-shop/App.jsx" />
-        <option value="$PROJECT_DIR$/jd-shop/components/carts/shop-list.jsx" />
-        <option value="$PROJECT_DIR$/jd-shop/components/carts/shop-product-list.jsx" />
         <option value="$PROJECT_DIR$/jd-shop/components/carts/shop-footer.jsx" />
+        <option value="$PROJECT_DIR$/jd-shop/components/carts/shop-list.jsx" />
         <option value="$PROJECT_DIR$/jd-shop/components/carts/shop.jsx" />
+        <option value="$PROJECT_DIR$/jd-shop/components/carts/shop-product-list.jsx" />
         <option value="$PROJECT_DIR$/jd-shop/components/carts/shop-product.jsx" />
         <option value="$PROJECT_DIR$/jd-shop/views/shop-cart.jsx" />
+        <option value="$PROJECT_DIR$/jd-shop/views/OneContext.js" />
+        <option value="$PROJECT_DIR$/jd-shop/App.jsx" />
+        <option value="$PROJECT_DIR$/jd-shop/views/TestContext.jsx" />
+        <option value="$PROJECT_DIR$/19-HOC.html" />
       </list>
     </option>
   </component>
@@ -324,7 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,28 +314,11 @@
               <item name="1903-react" type="462c0819:PsiDirectoryNode" />
               <item name="jd-shop" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="1903-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1903-react" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1903-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1903-react" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1903-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1903-react" type="462c0819:PsiDirectoryNode" />
-              <item name="jd-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,10 +335,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\qianfeng-2018\cource-plain\03、Reactjs全家桶课程\1903-react" />
       <recent name="F:\qianfeng-2018\cource-plain\03、Reactjs全家桶课程\1903-react\jd-shop\assets" />
       <recent name="F:\qianfeng-2018\cource-plain\03、Reactjs全家桶课程\1903-react\jd-shop\components\carts" />
       <recent name="F:\qianfeng-2018\cource-plain\03、Reactjs全家桶课程\1903-react\jd-shop" />
-      <recent name="F:\qianfeng-2018\cource-plain\03、Reactjs全家桶课程\1903-react" />
       <recent name="F:\qianfeng-2018\cource-plain\03、Reactjs全家桶课程\1903-react\build" />
     </key>
   </component>
@@ -456,18 +416,19 @@
       <workItem from="1564324929513" duration="32468000" />
       <workItem from="1564533931763" duration="10798000" />
       <workItem from="1564622526788" duration="10357000" />
-      <workItem from="1564643847269" duration="5765000" />
+      <workItem from="1564643847269" duration="6795000" />
+      <workItem from="1564706617361" duration="7928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81718000" />
+    <option name="totallyTimeSpent" value="90676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497349" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2497349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -494,45 +455,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/10-component属性-state.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11-组件的关系-父子关系.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="122" column="25" selection-start-line="122" selection-start-column="12" selection-end-line="122" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14-react整合第三方的框架.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1469">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13-组件的生命周期方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="120" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16-PureComponent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/17-组件的上下文(context).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -688,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-shop/commons/urlShemas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-shop/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -709,78 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack.react.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-shop/apis/cartApi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#1#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-shop/commons/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-shop/components/MyLoading.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#2#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jd-shop/components/loading.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2220">
           <caret line="60" column="7" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-shop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-shop/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-list.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#2#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,6 +648,16 @@
     <entry file="file://$PROJECT_DIR$/jd-shop/assets/images/icon_radio4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/main.bundle.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-footer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jd-shop/assets/basic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -804,24 +665,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-footer.jsx">
+    <entry file="file://$PROJECT_DIR$/jd-shop/components/MyLoading.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="71" />
+        <state relative-caret-position="148">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.react.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/apis/cartApi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/commons/urlShemas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/commons/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-list.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#2#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="407">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-product-list.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="407">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="e#2#39#0" expanded="true" />
           </folding>
@@ -830,18 +739,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-shop/components/carts/shop-product.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        <state relative-caret-position="518">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jd-shop/views/shop-cart.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        <state relative-caret-position="1106">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17-组件的上下文(context).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="89" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="50" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/views/OneContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd-shop/views/TestContext.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19-HOC.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
         </state>
       </provider>
     </entry>

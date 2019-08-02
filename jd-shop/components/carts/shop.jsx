@@ -8,7 +8,7 @@ export default class Shop extends Component {
     }
 
     render() {
-        let { data ,sid} = this.props;
+        let { data ,sid,pcheck} = this.props;
 
         return  <div className="shop-group-item">
             <div className="shop-name">
@@ -25,7 +25,7 @@ export default class Shop extends Component {
                         <span>编辑</span>
                     </div>
             </div>
-            <ShopProductList data={data.products} sid={sid}/>
+            <ShopProductList  pcheck={pcheck} data={data.products} sid={sid}/>
             <div className="shopPrice">
                 本店总计：
                 ￥<span className="shop-total-amount ShopTotal">16000</span>
