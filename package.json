@@ -26,7 +26,7 @@
     "@vue/babel-preset-jsx": "^1.0.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "file-loader": "^4.1.0",
     "style-loader": "^0.23.1",
     "url-loader": "^2.1.0",
